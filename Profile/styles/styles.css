@@ -1,0 +1,310 @@
+body {
+    background-color: #F8BAC7;
+}
+
+.landing {
+    height: 96vh;
+    min-height: 600px;
+    /*margin-bottom: 350px;
+    */
+}
+
+.landing>div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 50%;
+    text-align: center;
+}
+
+.Name {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 70px;
+    font-weight: 600;
+    -webkit-text-stroke: 1.8px #000000;
+    text-shadow: -5px 4px 4px rgba(0, 0, 0, 0.356);
+}
+
+.logo {
+    width: 420px;
+    height: 420px;
+}
+
+.enlaces {
+    text-align: center;
+    margin-top: 274px;
+    margin-left: 30px;
+}
+
+.enlace {
+    -webkit-text-stroke: 0.7px #000000;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    padding: 0px 55px 0px 55px;
+}
+
+#Perfil {
+    min-height: 600px;
+    height: 99vh;
+    max-height: 100vh;
+    position: relative;
+}
+
+.title {
+    position: absolute;
+    top: 4%;
+    left: 45%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 68px;
+    color: #FFFFFF;
+    -webkit-text-stroke: 2px #FFFFFF;
+    text-shadow: -5px 4px 4px rgba(0, 0, 0, 0.356);
+}
+
+#profile{
+    position: absolute;
+    left: 50%;
+    transform: translate(-25%, 10%);
+    max-width: 50%;
+    text-align: center;
+}
+
+#proy {
+    position: absolute;
+    left: 45%;
+    transform: translate(-25%, 10%);
+    max-width: 50%;
+    text-align: center;
+    font-size: 66px;
+}
+
+#cont{
+    position: absolute;
+    top: 10%;
+    left: 45%;
+    transform: translate(-25%, 10%);
+    max-width: 50%;
+    text-align: center;
+}
+
+.pic {
+    float: left;
+    top: 30%;
+    padding: 0px 55px 0px 25px;
+    position: absolute;
+    text-align: center;
+    border-radius: 100%;
+    width: 300px;
+    height: 300px;
+    filter: drop-shadow(-51px 50px 29px rgba(46, 5, 13, 0.01)) drop-shadow(-29px 28px 24px rgba(46, 5, 13, 0.05)) drop-shadow(-13px 13px 18px rgba(46, 5, 13, 0.09)) drop-shadow(-3px 3px 10px rgba(46, 5, 13, 0.1)) drop-shadow(0px 0px 0px rgba(46, 5, 13, 0.1));
+}
+
+.info {
+    position: absolute;
+    top: 29%;
+    left: 25%;
+    padding: 0px 35px 0px 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    font-weight: 400;
+    font-size: 25px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#Proyectos {
+    min-height: 600px;
+    height: 99vh;
+    max-height: 100vh;
+    position: relative;
+}
+
+#Contact {
+    min-height: 600px;
+    height: 99vh;
+    max-height: 100vh;
+    position: relative;
+}
+
+.phone{
+    position: absolute;
+    top: 48%;
+    left: 46%;
+    width: 100px;
+    height: 100px;
+    filter: drop-shadow(5px 4px 4px rgba(0, 0, 0, 0.356));
+}
+
+.email{
+    position: absolute;
+    top: 47%;
+    left: 23%;
+    width: 112px;
+    height: 112px;
+    filter: drop-shadow(5px 4px 4px rgba(0, 0, 0, 0.356));
+}
+
+.git{
+    position: absolute;
+    top: 48%;
+    left: 70%;
+    width: 112px;
+    height: 112px;
+    filter: drop-shadow(5px 4px 4px rgba(0, 0, 0, 0.356));
+}
+
+.slide {
+    position: absolute;
+    top: 62%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    text-align: center;
+    height: fit-content;
+    width: fit-content;
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);
+}
+
+.slide .web{
+    width: fit-content;
+    height: fit-content;
+    max-width: 1000px;
+    max-height: 450px;
+}
+
+#ajustar{
+    width: 1000px;
+    height: 450px;
+}
+
+.slide-inner {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: calc( 400px + 3em);
+}
+
+.slide-open:checked + .slide-item {
+    position: static;
+    opacity: 100;
+}
+
+.slide-item {
+    position: absolute;
+    opacity: 0;
+    -webkit-transition: opacity 0.6s ease-out;
+    transition: opacity 0.6s ease-out;
+}
+
+.slide-item img {
+    display: block;
+    height: auto;
+    width: auto;
+    max-width: 100%;
+}
+
+.slide-control {
+    background: rgba(0, 0, 0, 0.28);
+    border-radius: 50%;
+    color: #fff;
+    cursor: pointer;
+    display: none;
+    font-size: 40px;
+    height: 40px;
+    line-height: 35px;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translate(0, -50%);
+    cursor: pointer;
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    text-align: center;
+    width: 40px;
+    z-index: 10;
+}
+
+.slide-control.prev {
+    left: 2%;
+}
+
+.slide-control.next {
+    right: 2%;
+}
+
+.slide-control:hover {
+    background: rgba(0, 0, 0, 0.8);
+    color: #aaaaaa;
+}
+
+#slide-1:checked ~ .control-1,
+#slide-2:checked ~ .control-2,
+#slide-3:checked ~ .control-3 {
+    display: block;
+}
+
+.slide-indicador {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    bottom: 2%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 10;
+}
+
+.slide-indicador li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.slide-circulo {
+    color: #828282;
+    cursor: pointer;
+    display: block;
+    font-size: 35px;
+}
+
+.slide-circulo:hover {
+    color: #aaaaaa;
+}
+
+#slide-1:checked ~ .control-1 ~ .slide-indicador 
+     li:nth-child(1) .slide-circulo,
+#slide-2:checked ~ .control-2 ~ .slide-indicador 
+      li:nth-child(2) .slide-circulo,
+#slide-3:checked ~ .control-3 ~ .slide-indicador 
+      li:nth-child(3) .slide-circulo {
+    color: #428bca;
+}
+
+#titulo {
+    width: 100%;
+    position: absolute;
+    padding: 0px;
+    margin: 0px auto;
+    text-align: center;
+    font-size: 27px;
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Open Sans', sans-serif;
+    z-index: 9999;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.33), 
+         -1px 0px 2px rgba(255, 255, 255, 0);
+}
