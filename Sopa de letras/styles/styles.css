@@ -9,7 +9,7 @@ body{
     position: absolute;
     top: 50%;
     left: 40%;
-    transform: translate(-40%, -50%);
+    transform: translate(-54%, -49%);
     max-width: 100%;
     text-align: center;
     margin-top: 30px;
@@ -19,10 +19,11 @@ body{
     background-image: url('/marcelo-cidrack-S-2D55mMwEw-unsplash.jpg');
     /* background-image: url('/Tìm\ thấy\ ý\ tưởng\ này\ trên\ Pinterest.jpg'); */
     border-radius: 7%;
-    width: 900px;
+    width: 800px;
     height: 10px;
     padding: 40px;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 3px 5px 4px, rgba(0, 0, 0, 0.15) 0px 2px 6px 4px;
+    cursor: default;
 }
 
 td{
@@ -39,23 +40,24 @@ td{
 }
 
 .lista{
-    font-size: 30px;
+    font-size: 25px;
     float: right;  
     position: absolute;
-    top: 53%;
+    top: 50%;
     left: 100%;
-    transform: translate(4%, -60%);
+    transform: translate(6%, -56%);
     max-width: 100%;
     text-align: left;
     color: rgb(190, 190, 190);
     text-shadow: 3px 3px 5px black;
+    columns: 2;
 }
 .lista>li{
     margin: 10px;
 }
 .title{
     position: absolute;
-    top: 8%;
+    top: 9%;
     left: 50%;
     transform: translate(-50%, -100%);
     max-width: 100%;
@@ -65,4 +67,9 @@ td{
 
     color: rgb(190, 190, 190);
     text-shadow: 3px 3px 5px rgb(54, 41, 41);;
+}
+
+.resaltado:hover{
+    background-color: rgb(2, 34, 46);
+    cursor: grab;
 }
