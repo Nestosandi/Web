@@ -38,7 +38,7 @@ body {
 
 .enlaces {
     text-align: center;
-    margin-top: 274px;
+    margin-top: 270px;
     margin-left: 30px;
 }
 
@@ -51,8 +51,8 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 26px;
-    padding: 0px 55px 0px 55px;
+    font-size: 25px;
+    padding: 0px 30px 0px 30px;
 }
 
 #Perfil {
@@ -133,6 +133,32 @@ body {
     height: 99vh;
     max-height: 100vh;
     position: relative;
+}
+
+#video {
+    min-height: 600px;
+    height: 99vh;
+    max-height: 100vh;
+    position: relative;
+}
+
+#vid{
+    position: absolute;
+    left: 46%;
+    transform: translate(-25%, -20%);
+    max-width: 50%;
+    text-align: center;
+    font-size: 66px;
+}
+
+.song{
+    width:900px;
+    height:450px;
+    position: absolute;
+    left: 51%;
+    transform: translate(-50%, 25%);
+    max-width: 100%;
+    text-align: center;
 }
 
 #Contact {
