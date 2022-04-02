@@ -1,7 +1,5 @@
 body{
-    /* background-image: url('/𝘼𝙣𝙞𝙢𝙚\ 𝘼𝙚𝙨𝙩𝙝𝙚𝙩𝙞𝙘𝙨\ on\ Twitter.jpg'); */
     background-image: url('/marcelo-cidrack-S-2D55mMwEw-unsplash.jpg');
-    /* background-image: url('/Tìm\ thấy\ ý\ tưởng\ này\ trên\ Pinterest.jpg'); */
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -15,9 +13,8 @@ body{
     margin-top: 30px;
 }
 .Cuadro{
-    /* background-image: url('/𝘼𝙣𝙞𝙢𝙚\ 𝘼𝙚𝙨𝙩𝙝𝙚𝙩𝙞𝙘𝙨\ on\ Twitter.jpg'); */
+    
     background-image: url('/marcelo-cidrack-S-2D55mMwEw-unsplash.jpg');
-    /* background-image: url('/Tìm\ thấy\ ý\ tưởng\ này\ trên\ Pinterest.jpg'); */
     border-radius: 7%;
     width: 800px;
     height: 10px;
@@ -27,9 +24,6 @@ body{
 }
 
 td{
-    /* background-image: url('/𝘼𝙣𝙞𝙢𝙚\ 𝘼𝙚𝙨𝙩𝙝𝙚𝙩𝙞𝙘𝙨\ on\ Twitter.jpg'); */
-    /* background-image: url('/marcelo-cidrack-S-2D55mMwEw-unsplash.jpg'); */
-    /* background-image: url('/Tìm\ thấy\ ý\ tưởng\ này\ trên\ Pinterest.jpg'); */
     text-align: center;
     border-radius: 20%;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 2px 1px, rgba(0, 0, 0, 0.15) 0px 1px 3px 2px;
