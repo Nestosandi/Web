@@ -29,6 +29,7 @@ header {
 }
 
 .cart {
+    cursor: pointer;
     width: 129px;
     height: 90px;
     padding: 50px 0px 0px 820px;
