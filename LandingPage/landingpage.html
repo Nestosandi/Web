@@ -1,12 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/styles.css" />
     <title>Landing page</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <section class="back">
+      <header>
+        <h1 class="title">SNACK CONFERENCE 2022</h1>
+        <h3 class="subtitle">Un mundo de nuevas experiencias</h3>
+      </header>
+      <button class="conferences">
+        <h3 class="text">Mira la lista de conferencias</h3>
+      </button>
+      <img class="person" src="images/person.png" alt="" />
+      <button class="calendar">
+        <h3 class="ctext">Revisa la agenda programada</h3>
+      </button>
+      <section class="register">
+        <h3 class="welcome">Get started</h3>
+        <input
+          class="box"
+          type="text"
+          name="Fullname"
+          id="name"
+          placeholder="Full name"
+        />
+        <!-- <input class="box" type="password" name="pass" id="pass" /> -->
+        <input
+          class="box"
+          type="email"
+          name="Business Email"
+          id="email"
+          placeholder="Business Email"
+        />
+        <select class="box" name="Location" id="location">
+          <option value="" disabled selected>Select your option</option>
+          <option value="Colombia">Colombia</option>
+          <option value="Italia">Italia</option>
+          <option value="USA">USA</option>
+          <option value="Spain">Spain</option>
+        </select>
+        <input class="boxregister" type="button" value="Register" />
+      </section>
+      <footer>
+        <a href=""
+          >Inscribe tu curriculum vitae
+          <img class="upload" src="images/Upload.png" alt=""
+        /></a>
+      </footer>
+    </section>
+  </body>
 </html>
