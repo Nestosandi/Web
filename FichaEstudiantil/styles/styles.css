@@ -143,3 +143,196 @@ body {
         margin-bottom: -10px;
     }
 }
+
+@media screen and (min-width:1600px) and (max-width:1800px) {   
+    .title {
+        font-weight: 700;
+        letter-spacing: 5px;
+        font-size: 65px;
+        position: absolute;
+        top: 5%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        max-width: 100%;
+        width: 100%;
+    }
+    
+    .ficha {
+        border-style: solid;
+        border: 5 black;
+        width: 60%;
+        background-color: rgba(199, 179, 0, 0.726);
+        font-size: 25px;
+        border-radius: 10%;
+        position: absolute;
+        top: 80%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        max-width: 100%;
+    }
+    
+    .imagen {
+        width: 50%;
+        border-radius: 100%;
+        margin-top: 40px;
+        border: 4px black solid;
+    }
+    
+    .correo {
+        width: 10%;
+        margin-bottom: -20px;
+    }
+}
+
+@media screen and (min-width:1800px) and (max-width:2000px) {
+    body{
+        height: fit-content;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    max-width: max-content;
+    }
+
+    .title {
+        font-weight: 700;
+        letter-spacing: 5px;
+        font-size: 90px;
+        position: absolute;
+        top: 5%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        max-width: 100%;
+        width: 100%;
+    }
+    
+    .ficha {
+        position: absolute;
+        top: 98%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        max-width: 100%;
+        border-style: solid;
+        border: 5 black;
+        width: 60%;
+        height: 145%;
+        background-color: rgba(199, 179, 0, 0.726);
+        font-size: 35px;
+        border-radius: 10%;
+    }
+    
+    .imagen {
+        width: 45%;
+        border-radius: 100%;
+        margin-top: 40px;
+        border: 5px black solid;
+    }
+    
+    .correo {
+        width: 10%;
+        margin-bottom: -20px;
+    }
+}
+
+@media screen and (min-width:2600px) and (max-width:3000px) {
+    body{
+        height: fit-content;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    max-width: max-content;
+    }
+
+    .title {
+        font-weight: 700;
+        letter-spacing: 5px;
+        font-size: 110px;
+        position: absolute;
+        top: 6%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        max-width: 100%;
+        width: 100%;
+    }
+    
+    .ficha {
+        position: absolute;
+        top: 98%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        max-width: 100%;
+        border-style: solid;
+        border: 5 black;
+        width: 60%;
+        height: 145%;
+        background-color: rgba(199, 179, 0, 0.726);
+        font-size: 45px;
+        border-radius: 10%;
+    }
+    
+    .imagen {
+        width: 45%;
+        border-radius: 100%;
+        margin-top: 40px;
+        border: 6px black solid;
+    }
+    
+    .correo {
+        width: 10%;
+        margin-bottom: -20px;
+    }
+}
+
+@media screen and (min-width:3000px) and (max-width:4000px) {
+    body{
+        height: fit-content;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    max-width: max-content;
+    }
+
+    .title {
+        font-weight: 700;
+        letter-spacing: 5px;
+        font-size: 170px;
+        position: absolute;
+        top: 5%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        max-width: 100%;
+        width: 100%;
+    }
+    
+    .ficha {
+        position: absolute;
+        top: 98%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        max-width: 100%;
+        border-style: solid;
+        border: 5 black;
+        width: 60%;
+        height: 145%;
+        background-color: rgba(199, 179, 0, 0.726);
+        font-size: 65px;
+        border-radius: 10%;
+    }
+    
+    .imagen {
+        width: 45%;
+        border-radius: 100%;
+        margin-top: 40px;
+        border: 10px black solid;
+    }
+    
+    .correo {
+        width: 10%;
+        margin-bottom: -20px;
+    }
+}
