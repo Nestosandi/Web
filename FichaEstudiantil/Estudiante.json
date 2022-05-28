@@ -1,0 +1,13 @@
+{
+  "Estudiante": [
+    {
+        "foto":"/FichaEstudiantil/img/pic.jpeg",
+      "nombre": "Ernesto David Rios Vargas",
+      "carrera": "Ingeniería Informatica",
+      "correo": "edrios@correo.iue.edu.co",
+      "github":"https://github.com/Nestosandi/Web",
+      "linkedin":"https://www.linkedin.com/in/ernestodavidriosvargas/",
+      "universidad": "IUE"
+    }
+  ]
+}
